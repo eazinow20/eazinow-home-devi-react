@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+
+.login{
+    background: url(/src/img/bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100vh;
+    
+}
+.login-topbtn{
+    display: flex;
+    justify-content: left;
+   
+    padding: 20px;
+}
+.login-topbtn button{
+    border:1px solid #ff5a5f;
+    background-color: white;
+    outline: none;
+    color: #ff5a5f;
+    padding: 10px ;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.lgn-body{
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-size: 25px;
+}
+.lgn-wish{
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.lgn-time{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+}
+.lgn-name{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+
+}
+.lgn-tag a{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.lgn-input{
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: #ff5a5f;
+}
+.input-box input{
+    background: transparent;
+    outline: none;
+    width: 400px;
+    border: none;
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.frgt-rm{
+   align-items: center;
+   display: flex;
+   padding: 10px;
+   justify-content: center;
+     font-size: 15px;
+}
+.rmbr{
+    padding: 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.frgt{
+    padding: 0 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.input-box input[ type='submit' ]{
+ 
+    outline: none;
+    color: white;
+    width: 400px;
+    font-weight: 500;
+    border: none;
+    background-color: #ff5a5f;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.input-box .otp{
+ 
+    outline: none;
+    color: white;
+    width: 400px;
+    font-weight: 500;
+    border: 2px solid #ff5a5f;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.topblog{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    background: transparent;
+    color: white;
+}

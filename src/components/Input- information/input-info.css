@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+.main{
+    margin-top: 20vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.head .brand{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    /* font-weight: 600; */
+    word-spacing: 5px;
+    padding: 10px;
+    font-family: 'Nunito';
+
+}
+.head .tag{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-size: 22px;
+    font-family: 'Nunito';
+}
+.btns{
+    margin: 10px 0 5px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.btns .btn-box{
+    display: flex;
+    flex-direction: column;
+}
+.btns .btn{
+    margin-left: 10px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+   .btns .MuiSvgIcon-root{
+  
+    background-color: #FF5A5F;
+    height: 20px;
+    margin-left: 25px;
+    color: #FF5A5F;
+ 
+    margin-top: -10px;
+    width: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+
+
+.btns .active{
+    background-color: #FF5A5F;
+    color: white;
+}
+
+
+
+
+.input-info{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #737781; */
+    padding: 5x;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.input-info ul{
+    
+    display: flex;
+    border: 3px solid transparent;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px ;
+}
+
+.ui.selection.dropdown{
+    padding: 10px;
+   
+}
+.input-info li{
+    align-items: center;
+    justify-content: center;
+    vertical-align:middle;
+    display: flex;
+    list-style-type: none;
+    float: left;
+    padding: 8px;
+    color: gray;
+   
+}
+.input-info li:hover{
+    color: gray;
+}
+li .area{
+    font-size: 18px;
+    padding: 0  10px;
+    color: grey;
+}
+li .area span{
+    vertical-align: text-top;
+    font-size: 15px;
+}
+
+li .advance{
+    padding: 10px;
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+ .btn{
+    background-color: #FF5A5F;
+    outline: none;
+    border: 2px solid #FF5A5F;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+li .btn:hover{
+    background-color: white;
+    border: 2px solid #FF5A5F;
+    color: #FF5A5F;
+}
+li .MuiSvgIcon-root{
+    font-size: x-large;
+}
+
+
+
+.popper{
+    display: flex;
+    padding: 30x;
+    justify-content: center;
+ 
+    
+}
+.popper-body{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.8s ease-in-out;
+}
+.popper ul{
+    display: inline;
+   
+}
+.popper-body li{
+    padding: 10px  20px ;
+    float: left;
+    color: grey;
+    cursor: pointer;
+}

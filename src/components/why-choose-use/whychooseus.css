@@ -1,0 +1,76 @@
+.whycu{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+.wcu-top{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+}
+.wcu-topheading{
+    display: flex; 
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px 0 20px 0 ;
+    font-weight: 700;
+}
+.wcu-toptag{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.wcu-body{
+    display: flex;
+    padding: 30px 100px ;
+}
+.wcu-blog{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.wcu-blog:hover{
+    -webkit-box-shadow: -3px 6px 11px -3px rgba(184,180,184,0.84);
+    -moz-box-shadow: -3px 6px 11px -3px rgba(184,180,184,0.84);
+    box-shadow: -3px 6px 11px -3px rgba(184,180,184,0.84);
+    justify-content: center;
+}
+.wcu-blogtop{
+    font-size: xx-large;
+    text-align: center;
+    padding: 30px;
+    
+}
+.wcu-blogtop .MuiSvgIcon-root{
+    font-size: 110px;
+    color: #ff5a5f;
+    padding: 20px;
+    background-color: #ffebeb;
+    border-radius: 100%;
+    transition: 0.8s ease-in-out;
+}
+.wcu-blogtop .MuiSvgIcon-root:hover{
+    background-color: #ff5a5f;
+    color: white;
+}
+.wcu-blogbody{
+    padding: 20px;
+    text-align: center;
+}
+.wcu-bloghead{
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.wcu-blogdetails{
+    padding: 15px;
+    color: grey;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}

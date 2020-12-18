@@ -1,23 +1,50 @@
-import logo from './logo.svg';
+
 import './App.css';
+import slide1 from './img/slide2.jpg';
+import Header from './components/Header';
+import InputSection from './components/Input- information';
+import HowItWork from './components/how-it-work';
+import ExploreImages from './components/explore-images';
+import WhyCU from './components/why-choose-use';
+import Testimonals from './components/testimonals';
+import Toparticles from './components/toparticels';
+import Footer from './components/footer';
+import {
+  BrowserRouter as Router, Route, Switch
+} from 'react-router-dom'
+import Login from './components/login';
+import Register from './components/register';
 
 function App() {
+
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"  >
+    <Router>
+      <Switch>
+        <Route path='/' exact >
+        <div className="top" style={{backgroundImage:slide1}}><Header/>
+        <InputSection/></div>
+        <HowItWork/>
+
+        <ExploreImages/>
+        <WhyCU/>
+        <Testimonals/>
+        <Toparticles/>
+        <Footer/>
+        </Route>
+        <Route path='/login'>
+          <Login/>
+        </Route>
+        <Route path='/register'>
+          <Register/>
+        </Route>
+      </Switch>
+    </Router>
+     
     </div>
   );
 }
