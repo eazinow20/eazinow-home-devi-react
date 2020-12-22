@@ -11,9 +11,15 @@ import Toparticles from './components/toparticels';
 import Footer from './components/footer';
 import {
   BrowserRouter as Router, Route, Switch
-} from 'react-router-dom'
+} from 'react-router-dom';
+import { IndexRoute } from 'react-router'
 import Login from './components/login';
 import Register from './components/register';
+import Inspiration from './components/Inspiration';
+import Blog from './components/blogpage';
+import Blogsingle from './components/blogpage/Blogsingle';
+import Profile from './components/agent-profile/Index';
+import Blogsingle1 from './components/blogpage/BlogSingle2';
 
 function App() {
 
@@ -36,16 +42,18 @@ function App() {
         <Toparticles/>
         <Footer/>
         </Route>
-        <Route path='/login'>
-          <Login/>
-        </Route>
-        <Route path='/register'>
-          <Register/>
-        </Route>
+        <Route path='/login'><Login/></Route>
+        <Route path='/register'><Register/></Route>
+        <Route path='/inspiration'><Inspiration/></Route>
+        <Route exact path='/blog'><Blog /></Route>
+        <Route exact path='/profile'> <Profile/></Route>
+        <Route exact path="/blog/:title" component={Blogsingle} ></Route>
+        <Route path="/blog/slide/:title" component={Blogsingle1} ></Route>
       </Switch>
     </Router>
      
     </div>
+    
   );
 }
 

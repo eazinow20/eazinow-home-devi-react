@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import img from '../../img/hiw.png'
+import BlogComponent from '../blogpage/BlogComponent';
 const Toparticles = () => {
     return (
         <div className="toparticle">
@@ -18,73 +19,18 @@ const Toparticles = () => {
 </div>
         </div>
         <div className="ta-body">
-        <Card >
-        <div  className="tag">conggf</div>
-      <CardActionArea>
-      <img src={img} alt=""  />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h1">
-          Redfin Ranks the Most Competitive Neighborhoods of 2020
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Eazinow
-        </Button>
-        <Button size="small" color="primary">
-          Read More
-        </Button>
-      </CardActions>
-    </Card>
-    <Card >
-      <CardActionArea>
-      <img src={img} alt=""/>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-          Redfin Ranks the Most Competitive Neighborhoods of 2020
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Eazinow
-        </Button>
-        <Button size="small" color="primary">
-          Read More
-        </Button>
-      </CardActions>
-    </Card>
-    <Card >
-      <CardActionArea>
-        <img src={img} alt=""/>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-          Redfin Ranks the Most Competitive Neighborhoods of 2020
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Eazinow
-        </Button>
-        <Button size="small" color="primary">
-          Read More
-        </Button>
-      </CardActions>
-    </Card>
+        <div >
+        <BlogComponent type='slide' tag="Construction" auther="dev" date="December 20, 2020" view='320' comment="15" description="lorem Ipsum is simpland typesetting industlly unchanged." title="Indoor plants for your home Indoor plants for your home"/>
+
+    </div>
+    <div >
+    <BlogComponent type='slide' tag="Construction" auther="dev" date="December 20, 2020" view='320' comment="15" description="lorem Ipsum is simpland typesetting industlly unchanged." title="Indoor plants for your home Indoor plants for your home"/>
+
+    </div>
+    <div >
+    <BlogComponent type='slide' tag="Construction" auther="dev" date="December 20, 2020" view='320' comment="15" description="lorem Ipsum is simpland typesetting industlly unchanged." title="Indoor plants for your home Indoor plants for your home"/>
+
+    </div>
         </div>
         </div>
     )

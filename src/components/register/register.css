@@ -135,3 +135,13 @@ input:focus{
     background: transparent;
     color: white;
 }
+
+
+@media only screen and (max-width: 600px){
+    .lgn-wish{
+        font-size: 20px;
+        padding: 20px 20px;
+        display: block;
+        text-align: center;
+    }
+}

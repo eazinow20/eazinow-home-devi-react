@@ -8,36 +8,52 @@ import PinterestIcon from '@material-ui/icons/Pinterest';
 import LanguageIcon from '@material-ui/icons/Language';
 import Tooltip from '@material-ui/core/Tooltip';
 import ftpl1 from '../../img/ft-pl1.png';
-import Input from '@material-ui/core/Input';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
+import { IconButton } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+
+
+
  const Footer = () => {
     return (
         <> 
         <div className="footer-top">
+        
             <div className="ft-left">
-            <img src={ftpl1} alt="" />
+           Start your project
+           
+               <div className="ft-find">
+                 Find a professional <AddCircleIcon/>
+               </div>
             </div>
             <div className="ft-mid">
                 Newsletter
-                <Input placeholder="Your Email Address..." inputProps={{ 'aria-label': 'description' }} />
+               <div className="email-bx">
+                   <input type="email" placeholder="Enter Your Email.." /><IconButton><NavigateNextIcon/></IconButton> 
+               </div>
             </div>
             <div className="ft-right">
-            <div className="ft-rightbody">
+       
                 Follow
-            </div>
+                <div className="email-bx">
+                <InstagramIcon/>
+               </div>
+               
+            
             </div>
         </div>
         <div className="jump">
             <div className="jump-tag">
-                <div className="jump-name">Are you a Professional? Jump on board.</div>
+                <div className="jump-name">Are you a Professional? </div>
                 <div className="jump-tagdtls">Improve your visibility and receive quote requests from millions of users.</div>
             </div>
             <div className="jump-btn">
-                <button>Learn More</button>
+                <Link to='/login'><button>Jump on-board</button></Link>
             </div>
         </div>
         <div className ="footer">
             <div className ="about-site">
-            <div className ="head">About Site</div>
+            <div className ="ft-btm-hd">About Site</div>
                 <p>
                     We're reimagining how you buy, sell and rent.
                     it's now easier to get into a place you love. So 
@@ -45,7 +61,7 @@ import Input from '@material-ui/core/Input';
                 </p>
             </div>
             <div className ="quick-links">
-            <div className ="head">Quick Links</div>
+            <div className ="ft-btm-hd">Quick Links</div>
                 <ul>
                 <li><a href="#" >About Us</a> </li>
                     <li><a href="#" >Terms & Conditions</a> </li>
@@ -55,7 +71,7 @@ import Input from '@material-ui/core/Input';
                 </ul>
             </div>
             <div className ="contact-us">
-            <div className ="head">Contact Us</div>
+            <div className ="ft-btm-hd">Contact Us</div>
                 <ul>
                     <li>info@findhouse.com</li>
                     <li>Collins Street West, Victoria</li>
@@ -66,7 +82,7 @@ import Input from '@material-ui/core/Input';
             </div>
             <div className ="follow-us">
                 <div>
-                <div className ="head">Follow Us</div>
+                <div className ="ft-btm-hd">Follow Us</div>
                 <ul>
                     <li><FacebookIcon/></li>
                     <li><InstagramIcon/></li>
@@ -78,7 +94,7 @@ import Input from '@material-ui/core/Input';
                 </ul>
                 </div>
                 <div className ="subscribe">
-                <div className ="head">Subscribe</div>
+                <div className ="ft-btm-hd">Subscribe</div>
                     <input type ="email" placeholder ="Your Email"></input> 
                     <button type ="submit"> <NavigateNextIcon/> </button>
                 </div>

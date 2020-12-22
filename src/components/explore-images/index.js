@@ -25,7 +25,7 @@ const ExploreImages = () => {
                 </div>
                
             </div>
-            <div className='ei-body' style={{padding:'10px 100px 30px 100px'}} >
+            <div className='ei-body'>
                 
                 <div className="ei-imgs2">
                     <div className="img1"><img alt="" src={img}  /> </div>

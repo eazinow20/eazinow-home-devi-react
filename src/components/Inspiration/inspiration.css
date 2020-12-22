@@ -1,0 +1,234 @@
+.inspiration{
+    display: flex;
+    background: #f7f7f7;
+    flex-direction: column;
+
+  
+}
+.inspi_top{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 12%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.inspi_tophead{
+    padding: 30px 10px;
+    font-size: 18px;
+}
+.inspi_topbody{
+    display: flex;
+    justify-content: space-around;
+}
+.inspi_topbody li input{
+    width: 500px;
+}
+.inspi_body{
+    padding: 1% 12%;
+  /* background-color: rgb(236, 231, 231); */
+  display:block
+
+  
+
+}
+/* .advance_popper .popper_body{
+  display: flex;
+} */
+
+.advance_popper .popper-body{
+  display: flex;
+}
+.inspi_box1{
+  width: 25%;
+  float: left;
+  min-width: 200px;
+}
+.inspi_body .img_box{
+    position: relative;
+   
+    padding: 8px;
+    border-radius: 10px;
+    /* width: 250px; */
+    cursor: pointer;
+    display: block;
+    background-color: white;
+    width: 95%;
+    float: left;
+    margin: 5px;
+}
+.img_box img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.img_box {
+    position: relative;
+    
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 8px;
+  }
+  .img_box .img_overlay{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    /* background-color: white; */
+    top: 8%;
+    width: 80%;
+    left: 10%;
+    border-radius: 8px;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+  .ui.dropdown{
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  .img_box .img_overlay2{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    color: white;
+    /* background-color: white; */
+    bottom: 10px;
+    width: 100%;
+    left: 5%;
+    border-radius: 8px;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+
+  }
+  .img_overlay2 .img_overlayshare{
+    
+     padding: 4px;
+     vertical-align: baseline;
+     align-items: center;
+    
+     
+  }.img_overlay2 .img_overlaylike{
+    /* background-color: red; */
+    vertical-align: baseline;
+
+    padding: 4px;
+     align-items: center;
+     float: right;
+     margin-left: 60%;
+    
+  }
+  .img_overlay2 .MuiSvgIcon-root{
+       font-size: 30px;
+       border-radius: 8px;
+       padding: 5px;
+       background-color: rgb(141, 140, 140);
+  }
+.img_overlay .overlay_share{
+    margin-left: 100px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    
+    padding: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+  
+  .img_box:hover .image {
+    opacity: 0.9;
+  }
+  
+  .img_box:hover .img_overlay {
+    opacity: 1;
+  }
+  .img_box:hover .img_overlay2 {
+    opacity: 1;
+  }
+  .overlay{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  /* .img_box .ui.selection.dropdown{
+      padding: 10px 20px 10px ;
+  }  */
+  .overlay_slt{
+      padding: 8px 30px ;
+  }
+ .overlay  i.dropdown.icon{
+    margin-left: 10px;
+  }
+  
+ .pagination{
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+ }
+
+ .model{
+   background-color: white;
+   padding: 20px;
+   border-radius: 15px;
+   overflow: hidden;
+   transition: 1s ease-in-out;
+ }
+ .model img{
+   width: 100%;
+   border-radius: 10px;
+   height: auto;
+   max-height: 400px;
+ }
+ .model_btn{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .model_btn .model_savebtn{
+   display: flex;
+   font-size: 14px;
+    padding: 12px;
+    width: 200px;
+ }
+ .model_savebtn button{
+   background-color: #FF5A5F;
+   padding: 10px ;
+   border: 2px solid #FF5A5F;
+   margin: 0 10px ;
+   border-radius: 10px;
+   color: white;
+   font-weight: 600;
+   cursor: pointer;
+ }
+ .model_savebtn button:hover{
+   background-color: white;
+   color: #FF5A5F;
+ }
+
+ @media only screen and (max-width:800px){
+  .inspi_body{
+    padding: 20px ;
+  /* background-color: rgb(236, 231, 231); */
+  display:block;
+
+  
+
+}
+ }

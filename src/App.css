@@ -5,3 +5,39 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.header .header-right .onlypc{
+  display: inline;
+}
+.onlymob{
+  display: none;
+}
+.onlymob a {
+  color: white;
+}
+.onlymob a:hover {
+  color: white;
+}
+.header .header-right .onlymob .MuiSvgIcon-root{
+  font-size: 40px;
+  cursor: pointer;
+}
+.header .header-left .onlymob .MuiSvgIcon-root{
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.sidebar{
+  width: 250px;
+}
+.sidebar li{
+   color: #383838;
+   padding: 10px 20px ;
+}
+@media only screen and (max-width:1020px){
+  .header .header-right .onlypc{
+    display: none;
+  }
+  .onlymob{
+    display: block;
+  }
+}

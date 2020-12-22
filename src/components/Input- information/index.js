@@ -1,13 +1,9 @@
 import React, { useState } from 'react'
 import './input-info.css'
-import { Button, Dropdown, Grid,Input } from 'semantic-ui-react'
+import { Dropdown, Grid,Input } from 'semantic-ui-react'
 // import Select from '@material-ui/core/Select';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import MenuItem from '@material-ui/core/MenuItem';
-import TextField from '@material-ui/core/TextField';
-// import MenuItem from '@material-ui/core/MenuItem';
-import Popper from '@material-ui/core/Popper';
-import Fade from '@material-ui/core/Fade';
+
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link } from 'react-router-dom';
 const InputSection = () => {
@@ -90,11 +86,11 @@ const vender=()=>{
 };
    
     return (
-      <div className="main"> 
+      <div className="hd_main"> 
 
-         <div className="head">
+         <div className="hd_head">
          <ul>
-           <div className="brand">Eazinow</div>
+           <div className="head_brand">Eazinow</div>
            <div className='tag'>EXPLORE YOUR DREAM HOME HERE.</div>
            <div className='btns'>
         <div className="btn-box">  <button onClick={homeowneron} class={`btn ${activehm}`} >Homeowner</button> {homeowner? <ExpandMoreIcon/> : ""}</div> 

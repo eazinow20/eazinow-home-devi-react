@@ -62,9 +62,7 @@ const Register = () => {
             </div>
         </div>
 
-        <div className="topblog">
-            Top Blog Post
-        </div>
+      
      </div>
     )
 }

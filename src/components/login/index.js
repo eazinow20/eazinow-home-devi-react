@@ -1,13 +1,13 @@
 import React,{useState} from 'react'
 import './login.css'
-import { Link} from 'react-router-dom'
+import { Link, useHistory} from 'react-router-dom'
 
 import Checkbox from '@material-ui/core/Checkbox';
 const Login = () => {
     const [checked, setChecked] = useState(true);
     const [time, settime] = useState(new Date().toLocaleTimeString())
     var curtime = new Date().toLocaleTimeString();
-    
+    const history = useHistory();
     const handleChange = (event) => {
         setChecked(event.target.checked);
       };
@@ -15,6 +15,11 @@ const Login = () => {
         settime(new Date().toLocaleTimeString())
     };
     setInterval(setnewtime, 1000 )
+
+
+    const submituser=(e)=>{
+          history.push('/profile')    
+    }
     return (
         <div className="login">
            <div className="login-topbtn">
@@ -46,7 +51,7 @@ const Login = () => {
                       <div className='frgt'>  Forgot Password?</div>
                   </div>
                   <div className="input-box">
-                      <input placeholder="Submit" type='Submit'  />
+                  <input onClick={submituser} placeholder="Submit" type='Submit'  />
                   </div>
                   or
                   <div className="input-box">
@@ -55,9 +60,7 @@ const Login = () => {
                </div>
            </div>
 
-           <div className="topblog">
-               Top Blog Post
-           </div>
+         
         </div>
     )
 }

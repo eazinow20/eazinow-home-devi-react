@@ -10,53 +10,82 @@
  
 }
 .ft-left{
-    background: url(/src/img/ft1.jpg);
+    background: url(/src/img/ft2.jpg);
     background-size: cover;
     flex: 0.33;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    flex-direction: column;
 }
 
 .ft-mid{
-  background: url(/src/img/ft2.jpg);
+  background: url(/src/img/bg1.jpeg);
     background-size: cover;
     flex: 0.33;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
     flex-direction: column;
  
 }
-.ft-mid input{
+.ft-mid .email-bx{
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  padding: 2px;
   margin: 20px;
+  color: white;
+
+}
+.ft-left .ft-find{
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  margin: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.ft-mid input{
   padding: 5px;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      background: transparent;
+      color: white;
+}
+.ft-mid .MuiSvgIcon-root{
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: x-large;
 }
 
 .ft-right{
-  background: url(/src/img/ft1.jpg);
-    background-size: cover;
-    flex: 0.33;
-    height: 300px;
-}
-.ft-rightbody{
-  background-image: url(/src/img/ft-pl3.png);
+  background: url(/src/img/ft2.jpg);
+  background-size: cover;
+  flex: 0.33;
+  height: 300px;
   display: flex;
-  background-size:cover;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 45px;
-
+  font-size: 40px;
+  font-weight: 600;
   color: white;
- 
-  height: 200px;
-  margin-top: 50px;
+  flex-direction: column;
+}
+
+ .ft-right .MuiSvgIcon-root{
+  color: white;
+ margin: 20px;
+ font-size: 60px;
 }
 .jump{
     background-color: #FF5A5F;
@@ -77,13 +106,15 @@
     padding: 10px 20px ;
 }
 .jump-btn{
-
-    padding: 10px;
+  font-size: 25px;
+    padding: 15px;
+    font-weight: 700;
 }
 .jump-btn button{
     background-color: rgb(235, 157, 159);
     color: white;
     padding: 20px ;
+    font-weight: 700;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -173,7 +204,7 @@
  h2{
    padding: 0;
  }
-  .head{
+  .ft-btm-hd{
    color: #ffffff;
    font-family: Saira,Arial,Helvetica, sans-serif;
    font-weight: 700;
@@ -181,7 +212,7 @@
    font-style: normal;
    font-size: 18px;
    display: flex;
- 
+  justify-content: left;
    margin: 20px 0;
  }
 
@@ -226,4 +257,41 @@
  }
  .MuiSvgIcon--root {
   font-size :16px; 
+  }
+  @media only screen and (max-width:700px){
+    .footer-top{
+      display:block;
+      justify-content: center;
+     
+    }
+    .ft-left, .ft-mid, .ft-right{
+      font-size: 30px;
+    }
+    .jump{
+      padding: 10px;
+    }
+    .jump-name{
+      font-size: 22px;
+      font-weight: 600;
+      padding: 20px;
+  }
+  .jump-tagdtls{
+    font-size: 14px;
+    
+    padding: 10px 20px ;
+}.jump-btn{
+  font-size: 16px;
+ 
+   
+}
+.jump-btn button{
+  background-color: rgb(235, 157, 159);
+  color: white;
+  padding: 10px ;
+  font-weight: 700;
+  outline: none;
+  margin-top: 5px;
+  border: none;
+  border-radius: 10px;
+}
   }

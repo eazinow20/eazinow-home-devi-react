@@ -2,12 +2,18 @@
 
 .header{
     background: transparent;
-    padding: 30px;
-    display: flex;
+    padding: 15px 30px;
+    display: flex; 
+    align-items: center;
     justify-content: space-between;
+    color: white;
+}
+.header-left{
+    display: flex;
 }
 .header-left img{
-        width: 200px;
+    padding: 5px;
+        width: 150px;
 }
 .header-right ul{
     display: inline;
@@ -15,29 +21,48 @@
 .header-right ul li{
      list-style-type: none;
    cursor: pointer;
+      align-items: center;
      float: left;
-     padding: 20px 20px;
+     padding: 10px 15px;
      display: flex;
      font-weight: 500;
      font-size: 18px;
      line-height: 26px;
-     color: white;
+     color: inherit;
      text-decoration: none;
      transition: 0.5s ease-in-out;
      /* background-color: black; */
 }
+.header-right ul .crt_list{
+    background-color: #ff5a5f;
+    border-radius: 30px;
+    padding: 7px;
+    border: 3px solid #ff5a5f;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header-right ul .crt_list:hover{
+    border: 3px solid #ff5a5f;
+    background-color: white;
+    color: grey;
+}
 ul li a{
     text-decoration: none;
-    color: white;
+    padding: 0px;
+    align-items: center;
+    color: inherit;
     transition: 0.5s ease-in-out;
 } ul li a:hover{
     text-decoration: none;
     color:  #ff5a5f;
+    
 }
 
 .header-right .MuiSvgIcon-root{
-    font-size: xx-large;
-    padding: 0 4px ;
+    font-size: x-large;
+    padding: 0px ;
+   
 }
 .header-right ul .popper-menu{
     background-color: white;
