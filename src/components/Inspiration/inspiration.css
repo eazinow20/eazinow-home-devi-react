@@ -18,11 +18,16 @@
 }
 .inspi_topbody{
     display: flex;
-    justify-content: space-around;
+
+
 }
-.inspi_topbody li input{
-    width: 500px;
+.inspi_topbody li{
+  margin:  5px 30px ;
 }
+.inspi_topbody li:first-child{
+    flex: 1;
+}
+
 .inspi_body{
     padding: 1% 12%;
   /* background-color: rgb(236, 231, 231); */
@@ -222,7 +227,7 @@
    color: #FF5A5F;
  }
 
- @media only screen and (max-width:800px){
+ @media only screen and (max-width:600px){
   .inspi_body{
     padding: 20px ;
   /* background-color: rgb(236, 231, 231); */
@@ -230,5 +235,51 @@
 
   
 
+}
+.inspi_top{
+  display: flex;
+  flex-direction: column;
+  padding: 3% ;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.inspi_topbody{
+  display: flex;
+  flex-direction: column;
+
+}
+.inspi_topbody li{
+margin:  5px 30px ;
+flex: 1;
+
+justify-content: left;
+}
+.inspi_topbody li:first-child{
+  flex: 1;
+}
+.inspi_box1{
+  width:50%;
+  float: left;
+  min-width: 200px;
+}
+.overlay{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  display: none;
+  padding: 2px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.img_overlay2 .img_overlaylike{
+  /* background-color: red; */
+  vertical-align: baseline;
+
+  padding: 4px;
+   align-items: center;
+   float: right;
+   margin-left: 50%;
+  
 }
  }

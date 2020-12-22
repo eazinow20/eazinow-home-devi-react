@@ -76,12 +76,12 @@ const Inspiration = () => {
                         Results For :
                 </div>
                     <div className="inspi_topbody">
-                        <Grid columns={6}>
+                      
                             <li>
-                                <Input size="large" type="text" placeholder='What are You Looking For ...' />
+                                <Input fluid size="large" type="text" placeholder='What are You Looking For ...' />
                             </li>
                             <li>
-                                <Dropdown
+                                <Dropdown 
                                     onChange={handleChangeprop}
                                     openOnFocus
                                     options={proptypeoptions}
@@ -94,15 +94,14 @@ const Inspiration = () => {
 
 
                             <li>
-                                <div onClick={handlepopper} className='advance'>Advance
-        <MoreVert />
+                                <div onClick={handlepopper} className='advance'>Advance<MoreVert />
                                 </div>
 
                             </li>
                             <li>
                                 <button class='btn'>Submit</button>
                             </li>
-                        </Grid>
+                    
                     </div>
                     {openadvance ?
                         <div className="advance popper">

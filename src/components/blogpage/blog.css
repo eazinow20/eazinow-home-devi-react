@@ -137,14 +137,21 @@ position: relative;
     flex-direction: column;
 }
 
+
+
+
 .blog_fltrsrch{
     background-color: white;
-    padding: 20px  15px;
+    padding: 20px  5px;
     width: 100%;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
     border-radius: 15px;
+}
+.blog_fltrsrch input{
+    width: 350px;
+    padding: 10px;
 }
 .blogpage_bodyfltr .blog_category , .blog_tag, .blog_topblog{
     background-color: white;
