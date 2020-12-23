@@ -1,0 +1,166 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #64c5b1;
+    align-items: center;
+    padding: 5px 10px;
+    align-items: center;
+    color: white;
+    position:sticky;
+   
+}
+.navbar .ui.input>input{
+    background-color: #48BBA3;
+    border-radius: 20px;
+    color: white;
+    padding:12px 20px;
+    margin: 0;
+    outline: none;
+    height: auto;
+    border: none
+}
+.navbar i.icon{
+    color: white;
+    margin:  20px;
+    
+}
+.navbar .navbar_right{
+    display: flex;
+    align-items: center;
+}
+.navbar_right .MuiSvgIcon-root{
+    font-size: xx-large;
+    margin: 50x 20px;
+}
+.navbar .navbar_right li{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.navbar_right .user_name{
+    align-items: center;
+    color:#fff;
+    vertical-align: middle;
+    padding: 8px;
+}
+.chatroom{
+    padding: 5px;
+    background-size: cover;
+    display: flex;
+    font-family:  sans-serif;
+    
+}
+.chat_left{
+    flex: 0.18;
+   
+    border: 1px solid #c7c7c7;
+    
+  
+    cursor: pointer;
+}
+.chat_lefthead{ 
+    padding: 15px;
+     font-weight: 700;
+     display: flex;
+     background-color: white;
+   justify-content: space-between;
+   border-bottom: 1px solid #c7c7c7;
+}
+.chat_leftbottom{ 
+    padding: 5px 15px 10px 15px;
+     font-weight: 700;
+     display: flex;
+     background-color: white;
+     border-top: 1px solid #c7c7c7;
+   justify-content: space-between;
+  
+}
+.chat_leftbottom li{
+    color: black;
+    font-weight: 800;
+}
+.chat_leftbottom .grp_icon{
+    padding: 12px 3px;
+    color: #8c9396;
+}
+.chat_right{
+    flex: 0.82;
+    background-color: #eeeeee;
+    border: 1px solid #c7c7c7;
+    margin-left: -1px;
+}
+.group_list{
+    margin: 10px ;
+    height: 67vh;
+    overflow-y: scroll;
+ 
+}
+.group_list li{
+    padding: 10px;
+    color: #484848;
+    display: flex;
+    flex-direction: column;
+}
+.group_list .list_head{
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: 400;
+}
+.chatroom .grp_top{
+    display: flex;
+}
+.grp_dp{
+    padding: 8px 2px;
+}
+.chatroom .grp_info{
+    padding-left: 20px;
+    font-family: 'Montserrat';
+}
+.grp_info .grp_name{
+    font-weight: 500;
+    padding: 5px 0 2px 0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.grp_info .grp_tag{
+    font-size: 9.6px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    padding:2px 3px;
+    border-radius: 5px;
+}
+ .grp_lastmessage{
+    color: #8c9396;
+    font-family: 'Montserrat';
+
+    font-size: 12px;
+}
+
+.chat_righthead{ 
+    padding: 7.5px  10px 7.5px 10px;
+     font-weight: 700;
+     display: flex;
+     background-color: white;
+   justify-content: space-between;
+   border-bottom: 1px solid #c7c7c7;
+   align-items: center;
+}
+.chatbox_headright{
+    display: flex;
+}
+.chatbox_headright li{
+    align-items:baseline;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.chatbox_headright .chat_headicon{
+    padding: 7px 10px;
+}
+.chatbox_headright li .ui.icon.button{
+    background-color: #64c5b1;
+}
+.chatbox_headright li i.icon.search{
+    color: white;
+}

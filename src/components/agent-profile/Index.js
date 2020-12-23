@@ -6,8 +6,7 @@ import img from './../../img/hiw.png'
 import img1 from './../../img/slide2.jpg'
 import { Facebook, Instagram, Pinterest, Twitter } from '@material-ui/icons'
 import BlogComponent from '../blogpage/BlogComponent'
-import InspImage from '../Inspiration/InspImage'
-import { Switch } from 'react-router'
+
 import BlogSearchBox from '../blogpage/BlogSearchBox'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -20,11 +19,7 @@ const Profile = () => {
 
 
 
-     const items = [
-        <img src={img}  className="sliding_img" />,
-        <img src={img}  className="sliding_img" />,
-        <img src={img}  className="sliding_img" />,
-      ];
+   
     return (
         <div>
             <Header listing background="white" color="gray" border="1px solid lightgray" />

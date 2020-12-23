@@ -12,7 +12,7 @@ import Footer from './components/footer';
 import {
   BrowserRouter as Router, Route, Switch
 } from 'react-router-dom';
-import { IndexRoute } from 'react-router'
+
 import Login from './components/login';
 import Register from './components/register';
 import Inspiration from './components/Inspiration';
@@ -20,7 +20,7 @@ import Blog from './components/blogpage';
 import Blogsingle from './components/blogpage/Blogsingle';
 import Profile from './components/agent-profile/Index';
 import Blogsingle1 from './components/blogpage/BlogSingle2';
-
+import Chatroom from './dashboard/chatroom'
 function App() {
 
 
@@ -48,7 +48,8 @@ function App() {
         <Route exact path='/blog'><Blog /></Route>
         <Route exact path='/profile'> <Profile/></Route>
         <Route exact path="/blog/:title" component={Blogsingle} ></Route>
-        <Route path="/blog/slide/:title" component={Blogsingle1} ></Route>
+        <Route path="/blog/slide/:title" component={Blogsingle1} ></Route> 
+        <Route path="/dashboard" component={Chatroom} ></Route>
       </Switch>
     </Router>
      

@@ -6,7 +6,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 const Login = () => {
     const [checked, setChecked] = useState(true);
     const [time, settime] = useState(new Date().toLocaleTimeString())
-    var curtime = new Date().toLocaleTimeString();
+   
     const history = useHistory();
     const handleChange = (event) => {
         setChecked(event.target.checked);

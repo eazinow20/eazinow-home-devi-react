@@ -29,7 +29,7 @@
     font-family: 'Nunito';
 }
 .btns{
-    margin: 10px 0 5px 0;
+    margin: 30px 0 5px 0;
     display: flex;
     justify-content: center;
 
@@ -135,6 +135,7 @@ li .advance{
     border: 2px solid #FF5A5F;
     padding: 12px;
     font-size: 16px;
+   
     color: white;
     font-weight: 500;
     border-radius: 8px;

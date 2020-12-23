@@ -7,7 +7,7 @@ const Register = () => {
 
     const [checked, setChecked] = useState(true);
     const [time, settime] = useState(new Date().toLocaleTimeString())
-    var curtime = new Date().toLocaleTimeString();
+
     
     const handleChange = (event) => {
         setChecked(event.target.checked);

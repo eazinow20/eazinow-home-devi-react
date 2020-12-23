@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import { Dropdown, FormInput, Grid, Input } from 'semantic-ui-react'
+import { Dropdown, Input } from 'semantic-ui-react'
 import img from '../../img/slide2.jpg'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import { MoreVert, Share } from '@material-ui/icons'
+import {  Share } from '@material-ui/icons'
 import { Modal } from 'semantic-ui-react'
 import SwapHorizIcon from '@material-ui/icons/SwapHoriz';
-import { Box, IconButton, Popover, Typography } from '@material-ui/core'
+import {  IconButton} from '@material-ui/core'
 
 const InspImage = (props) => {
     const [currentvalue, setcurrentvalue] = useState("Select Board")
     const [openmodel, setopenmodel] = useState(false)
     const [opencreatemodel, setopencreatemodel] = useState(false)
-    const [placeholder, setplaceholder] = useState('Choose Board')
+ 
 
 
     const [anchorEl, setAnchorEl] = React.useState(null);

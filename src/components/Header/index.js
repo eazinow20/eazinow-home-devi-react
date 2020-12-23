@@ -3,19 +3,19 @@ import logo from '../../img/eazinow-logo.jpeg'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import 'semantic-ui-css/semantic.min.css'
-import Button from '@material-ui/core/Button';
+
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
-import Paper from '@material-ui/core/Paper';
+
 import Popper from '@material-ui/core/Popper';
 import MenuIcon from '@material-ui/icons/Menu';
 import './header.css'
 import { Link} from 'react-router-dom'
-import { propTypes } from 're-carousel';
+
 import ListSubheader from '@material-ui/core/ListSubheader';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import { Add } from '@material-ui/icons';
+
 import { Drawer } from '@material-ui/core';
 
 
@@ -32,17 +32,17 @@ const  Header =(props)=> {
     }
 
 
-    const handleToggle = () => {
-        setOpen((prevOpen) => !prevOpen);
-      };
+    // const handleToggle = () => {
+    //     setOpen((prevOpen) => !prevOpen);
+    //   };
     
-      const handleClose = (event) => {
-        if (anchorRef.current && anchorRef.current.contains(event.target)) {
-          return;
-        }
+    //   const handleClose = (event) => {
+    //     if (anchorRef.current && anchorRef.current.contains(event.target)) {
+    //       return;
+    //     }
     
-        setOpen(false);
-      }
+    //     setOpen(false);
+    //   }
       const handlemoreToggle = () => {
         setOpenmore((prevOpen) => !prevOpen);
       };

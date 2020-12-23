@@ -3,14 +3,13 @@ import Footer from '../footer'
 import Header from '../Header'
 import './blog.css'
 import Pagination from '@material-ui/lab/Pagination';
-import BlogSingle from './Blogsingle'
+
 import BlogComponent from './BlogComponent';
 import {
-    BrowserRouter as Router , Route, Switch,useParams
+  useParams
 } from 'react-router-dom'
 import BlogSearchBox from './BlogSearchBox';
-import { AddRounded } from '@material-ui/icons';
-import Blogsingle from './Blogsingle';
+
 const Blog = () => {
      let {slug} = useParams;
      

@@ -6,8 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import LanguageIcon from '@material-ui/icons/Language';
-import Tooltip from '@material-ui/core/Tooltip';
-import ftpl1 from '../../img/ft-pl1.png';
+
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 import { IconButton } from '@material-ui/core';
 import { Link } from 'react-router-dom';
@@ -63,11 +62,11 @@ import { Link } from 'react-router-dom';
             <div className ="quick-links">
             <div className ="ft-btm-hd">Quick Links</div>
                 <ul>
-                <li><a href="#" >About Us</a> </li>
-                    <li><a href="#" >Terms & Conditions</a> </li>
-                    <li><a href="#" >Help And Support</a> </li>
-                    <li><a href="#" >Privacy Policy</a> </li>
-                    <li><a href="#" >Sign up Company for free</a> </li>
+                <li>About us</li>
+                    <li>Terms & Conditions</li>
+                    <li>Help And Support</li>
+                    <li>Privacy Policy</li>
+                    <li>Sign up Company for free</li>
                 </ul>
             </div>
             <div className ="contact-us">
@@ -103,11 +102,11 @@ import { Link } from 'react-router-dom';
        <div className ="sub-footer">
         <div className ="footer2">
                 <ul>
-                    <li><a href="#" >Home</a> </li>
-                    <li><a href="#" >Inspiration</a> </li>
-                    <li><a href="#" >Bids</a> </li>
-                    <li><a href="#" >Contact</a> </li>
-                    <li><a href="#" >Login/Register</a> </li>
+                    <li>Home </li>
+                    <li>Inspiration </li>
+                    <li>Bids </li>
+                    <li>Contact </li>
+                    <li>Login/Register </li>
                     
                 </ul>
         </div>

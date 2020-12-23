@@ -5,9 +5,9 @@ import Footer from '../footer'
 import logo from './../../img/eazinow-logo.jpeg'
 import img from './../../img/hiw.png';
 import Header from '../Header'
-import BlogComponent from './BlogComponent';
+
 import BlogSearchBox from './BlogSearchBox';
-import { Icon, Input } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
 import { Rating } from '@material-ui/lab'
 import { Divider } from '@material-ui/core'
 

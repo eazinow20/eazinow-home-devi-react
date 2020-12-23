@@ -1,15 +1,15 @@
 import React from 'react'
-import Pagination from '@material-ui/lab/Pagination';
+
 import SwapHorizIcon from '@material-ui/icons/SwapHoriz';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import { Share } from '@material-ui/icons'
 import { IconButton } from '@material-ui/core'
-import { Divider, Icon, Search } from 'semantic-ui-react'
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import { Divider, Icon } from 'semantic-ui-react'
+
 import img from '../../img/slide2.jpg'
 import logo from './../../img/eazinow-logo.jpeg'
 import { useHistory } from 'react-router-dom';
-import { propTypes } from 're-carousel';
+
 
 const BlogComponent = (props) => {
             const auther = props.auther;

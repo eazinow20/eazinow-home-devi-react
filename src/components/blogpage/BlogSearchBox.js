@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Divider, Icon, Search } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
 import img from '../../img/bg1.jpeg'
 import BlogComponent from './BlogComponent'
 import { Input } from 'semantic-ui-react'
@@ -9,7 +9,7 @@ const BlogSearchBox = (props) => {
       
             <div className="blogpage_bodyfltr">
                      { props.search?  <div className="blog_fltrsrch">
-                     <Input  placeholder='Search...' />
+                     <Input fluid icon='search' placeholder='Search...' />
                         </div> : ""}
                         { props.category? <div className="blog_category">
                             Categories

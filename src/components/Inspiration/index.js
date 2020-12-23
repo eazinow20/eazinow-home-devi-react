@@ -1,6 +1,6 @@
-import React, { useState, useReducer } from 'react'
+import React, { useState } from 'react'
 import Header from '../Header'
-import { Dropdown, FormInput, Grid, Input } from 'semantic-ui-react'
+import { Dropdown, FormInput, Input } from 'semantic-ui-react'
 import { MoreVert, Share } from '@material-ui/icons'
 import './inspiration.css'
 import img from '../../img/slide2.jpg'
@@ -13,24 +13,17 @@ import { Modal } from 'semantic-ui-react'
 import SwapHorizIcon from '@material-ui/icons/SwapHoriz';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import { Checkbox, FormControlLabel, IconButton } from '@material-ui/core'
-import exploreimgdata from './../../dami-data/exploreimg'
+
 import Footer from '../footer'
 import InspImage from './InspImage'
 
 const Inspiration = () => {
     const [proptypevalue, setproptypevalue] = useState(" ")
     const [modelimg, setmodelimg] = useState("");
-    const initialoptions = [
-        { key: 1, text: 'Bedroom', value: 1 },
-        { key: 2, text: 'Drawing Room', value: 2 },
-        { key: 3, text: 'Washroom/Toilet', value: 3 },
-        { key: 4, text: 'Study Room', value: 4 },
-        { key: 5, text: 'kitchen ', value: 5 },
-        { key: 6, text: 'Balcony', value: 6 },
-    ]
+  
 
     const [openmodel, setopenmodel] = useState(false)
-    const [overlayoptions, setoverlayoptions] = useState(initialoptions)
+
     const [openadvance, setopenadvance] = useState(false)
 
 

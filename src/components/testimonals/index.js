@@ -1,8 +1,7 @@
 import React from 'react'
 import './testimonals.css'
 // import AliceCarousel from 'react-alice-carousel';
-import Carousel from 're-carousel'
-import img from '../../img/bg1.jpeg'
+
 import { Avatar } from '@material-ui/core'
 const Testimonals = () => {
 
