@@ -170,30 +170,121 @@ const Chatroom = () => {
                             </div>
                             <div className="chatbox_bodycontainer">
                                 
-                                  <div className='chatbodytop'>
-                                        <div className='chatbox_body'>
-                                        dcdvdvdxfvdfv
-                                        </div>
-                                        <div className='grp_member'>
-                                            <li className='list_head'>Group Members</li>
-                                            <li><div className='grp_top'>
-                                                <Avatar src={myimg} />
-                                                <div className="grp_info">
-                                                    <div className="grp_name">
-                                                        Sohan
-                                                    
-                                                      </div>
-                                              <div className="grp_lastmessage">hello my name is devi last message...</div>
-                                                </div>
+                                <div className="chatbox_main">
+                                    <div className="chatbox_chatbody">
+                                        dghfhf
+                                    </div>
+                                    <div className="chatbox_member">
+                                        <li className='list_head'>Group member</li>
+                                        <li>
+                                        <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
                                             </div>
-                                                
-                                            </li> 
-                                        </div>
-                                  </div>
-                               
-                                <div className="chat_inputbox">
-                                    dfddgvr
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>     <li>
+                                            <div className="member_top">
+                                                <Avatar/>
+                                               <div className="chatmember_info">
+                                                    <div className="grp_membername">
+                                                       User name here
+                                                    </div><div className="last_message">my last last_message</div>
+                                               </div>
+                                            </div>
+                                            
+                                        </li>
+
+                                        </li>
+                                    </div>
                                 </div>
+                               <div className="chatbox_input">
+                                   <div className="chatbox_inputaddfile">
+                                       add
+                                   </div>
+                                  <div className="chat_inputbox">
+                                  <input placeholder='Search...' />
+                                  </div>
+                                   <div className="chatinput_right">
+                                     <Icon name="image"></Icon>
+                                     <Icon name="gift"></Icon>
+                                     <Icon name="smile outline"></Icon>
+                                   </div>
+                               </div>
                             </div>
                      </div>
 

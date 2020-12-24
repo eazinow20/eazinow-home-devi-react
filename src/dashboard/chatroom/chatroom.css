@@ -190,19 +190,16 @@
     flex-direction: column;
    
 }
-
-/* .chatbox_bodycontainer .chatbox_bodytop{
+.chatbox_bodycontainer .chatbox_main{
     display: flex;
-    flex: 1;
-    flex-direction: row;
+    border-bottom: 1px solid #c7c7c7;
 }
-.chatbox_body{
+.chatbox_chatbody{
     flex: 0.75;
     display: flex;
     background-color: #eeeeee;
-} */
-/* 
-.grp_member{
+}
+.chatbox_member{
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -210,19 +207,50 @@
     display: flex;
     flex: 0.25;
     border-left: 1px solid #c7c7c7;
-    height: 71vh;
+    height: 72vh;
     overflow-y: scroll;
-   
 }
-.grp_member li{
+.chatbox_member li{
     padding: 10px;
     color: #484848;
+    font-family: 'Montserrat';
     display: flex;
     flex-direction: column;
-
 }
-.grp_member .list_head{
+.chatbox_member .list_head{
     color: #b1b1b1;
     font-size: 14px;
     font-weight: 400;
-} */
+}
+.member_top{
+    display: flex;
+}
+.member_top .chatmember_info{
+    padding: 0 10px;
+}
+.chatbox_member .last_message{
+    color: #b1b1b1;
+    font-size: 12px;
+}
+
+ 
+.chatbox_input{
+ display: flex;
+ padding: 20px;
+}
+
+.chatbox_inputaddfile{
+    flex: 0.2;
+    padding: 0 15px;
+}
+.chatinput_box{
+ flex: 0.6;
+ padding: 0 15px;
+}
+.chatinput_box input{
+    width: 100%;
+}
+.chatinput_right{
+    flex: 0.2;
+    padding: 0 15px;
+}
