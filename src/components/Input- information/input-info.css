@@ -156,6 +156,7 @@ li .MuiSvgIcon-root{
     display: flex;
     padding: 30x;
     justify-content: center;
+    background-color: white;
  
     
 }
@@ -169,6 +170,7 @@ li .MuiSvgIcon-root{
 }
 .popper ul{
     display: inline;
+    background-color: white;
    
 }
 .popper-body li{
@@ -176,6 +178,7 @@ li .MuiSvgIcon-root{
     float: left;
     color: grey;
     cursor: pointer;
+    background-color: white;
 }
 
 

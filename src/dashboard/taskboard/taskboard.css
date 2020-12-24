@@ -1,0 +1,104 @@
+.taskboard{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    
+    font-family: 'Montserrat';
+}
+.taskboard_heading{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    background-color: #fff;
+}
+.taskboard_body{
+    display: flex;
+    background-color: #eee;
+}
+.task_container{
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.33;
+    padding: 20px;
+}
+.task_container_heading{
+           display: flex;
+           font-size: 18px;
+           font-weight: 600;
+           flex-direction: column;
+           
+}
+.task_container_heading span{
+    color: rgb(197, 197, 197);
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+.task_container .task_box{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+}
+.task_box .task_boxtop{
+    display: flex;
+    justify-content: space-between;
+}
+.task_box .task_boxtopleft{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.task_box .task_boxtopleft span{
+    color: white;
+    font-size: 10px;
+    padding: 1px 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 5px 0;
+    width: fit-content;
+}
+.task_box .task_duedate{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: #5c5c5c;
+}
+.task_box .task_duedate span{
+    font-weight: 700;
+    font-size: 13px;
+    color: #5c5c5c;
+
+}
+.task_box .task_boxbottom{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+.task_boxbottom .assigned_user{
+    display: flex;
+}
+.assigned_user span{
+    padding: 10px;
+    font-size: 15px;
+    color: #5c5c5c;
+    font-weight: 800;
+}
+.task_boxbottom .task_btns{
+    display: flex;
+    padding: 8px;
+}
+.task_btns .tsk_btn{
+    background-color: #32c861;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 5px;
+    font-size: 12px;
+    padding: 5px;
+}

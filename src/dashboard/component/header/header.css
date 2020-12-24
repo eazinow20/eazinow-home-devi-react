@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #64c5b1;
+    align-items: center;
+    padding: 5px 10px;
+    align-items: center;
+    color: white;
+    position:sticky;
+   
+}
+.navbar .ui.input>input{
+    background-color: #48BBA3;
+    border-radius: 20px;
+    color: white;
+    padding:12px 20px;
+    margin: 0;
+    outline: none;
+    height: auto;
+    border: none
+}
+.navbar i.icon{
+    color: white;
+    margin:  20px;
+    
+}
+.navbar .navbar_right{
+    display: flex;
+    align-items: center;
+}
+.navbar_right .MuiSvgIcon-root{
+    font-size: xx-large;
+    margin: 50x 20px;
+}
+.navbar .navbar_right li{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.navbar_right .user_name{
+    align-items: center;
+    color:#fff;
+    vertical-align: middle;
+    padding: 8px;
+}

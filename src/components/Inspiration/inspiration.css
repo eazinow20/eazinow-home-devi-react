@@ -229,7 +229,7 @@
 
  @media only screen and (max-width:600px){
   .inspi_body{
-    padding: 20px ;
+    padding: 20px  0px;
   /* background-color: rgb(236, 231, 231); */
   display:block;
 
@@ -258,9 +258,9 @@ justify-content: left;
   flex: 1;
 }
 .inspi_box1{
-  width:50%;
+  width:40%;
   float: left;
-  min-width: 200px;
+  min-width: 160px;
 }
 .overlay{
   background-color: red;
@@ -279,7 +279,11 @@ justify-content: left;
   padding: 4px;
    align-items: center;
    float: right;
-   margin-left: 50%;
+   margin-left: 40%;
   
+}
+.inspi_body .img_box{
+  padding: 5px ;
+  margin: 0px;
 }
  }

@@ -38,5 +38,15 @@
 @media only screen and (max-width:700px){
     .ta-body{
         display: block;
+         justify-content: center;
+        padding: 5% 8%;
     }
+    
+    .toparticle{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px;
+        background-color: #f7f7f7;
+    }
+    
 }

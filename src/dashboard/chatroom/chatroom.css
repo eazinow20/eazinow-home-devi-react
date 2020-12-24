@@ -18,52 +18,7 @@
     flex: 1;
     flex-direction: column;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #64c5b1;
-    align-items: center;
-    padding: 5px 10px;
-    align-items: center;
-    color: white;
-    position:sticky;
-   
-}
-.navbar .ui.input>input{
-    background-color: #48BBA3;
-    border-radius: 20px;
-    color: white;
-    padding:12px 20px;
-    margin: 0;
-    outline: none;
-    height: auto;
-    border: none
-}
-.navbar i.icon{
-    color: white;
-    margin:  20px;
-    
-}
-.navbar .navbar_right{
-    display: flex;
-    align-items: center;
-}
-.navbar_right .MuiSvgIcon-root{
-    font-size: xx-large;
-    margin: 50x 20px;
-}
-.navbar .navbar_right li{
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 14px;
-}
 
-.navbar_right .user_name{
-    align-items: center;
-    color:#fff;
-    vertical-align: middle;
-    padding: 8px;
-}
 .chatroom{
     padding: 5px;
     background-size: cover;
@@ -187,6 +142,7 @@
 
 .chatbox_bodycontainer{
     display: flex;
+
     flex-direction: column;
    
 }
@@ -196,9 +152,64 @@
 }
 .chatbox_chatbody{
     flex: 0.75;
+    height: 72vh;
+    overflow-y: scroll;
     display: flex;
+    flex-direction: column;
     background-color: #eeeeee;
+    font-family: 'Montserrat';
 }
+
+.chatbox_chatbody .chat_messagebox{
+    text-align: left;
+   display: flex;
+    padding: 5px 15px;
+    border-radius: 12px;
+    margin: 5px 20px;
+}
+
+.chatbox_chatbody  .sendmessage{
+
+    text-align: right;
+    margin-left: auto;
+}
+.chat_message{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    font-size: 12px;
+    justify-content: center;
+    color: #8c9396;
+    font-family: 'Montserrat';
+}
+.chat_message .chat_username{
+    display: flex;
+    font-weight: 700;
+    color: #222;
+    font-size: 16px;
+    justify-content: left;
+}
+.chat_message .chat_time{
+    font-size: 10px;
+    color: #8c9396;
+    align-items: baseline;
+    padding: 3px 0 0 3px;
+}
+.chat_message .message_text{
+    display: flex;
+    justify-content: left;
+}
+/* }.chatbox_chatbody {
+   
+    text-align: left;
+
+    padding: 5px 15px;
+    border-radius: 12px;
+    margin: 5px 20px;
+
+
+   
+} */
 .chatbox_member{
     display: flex;
     flex-direction: column;
@@ -236,21 +247,38 @@
  
 .chatbox_input{
  display: flex;
- padding: 20px;
+ justify-content: space-between;
+ 
 }
 
 .chatbox_inputaddfile{
     flex: 0.2;
-    padding: 0 15px;
+    margin: 0 15px;
+
+    padding: 20px;
 }
 .chatinput_box{
  flex: 0.6;
- padding: 0 15px;
+
+ margin: 0 15px;
+ padding: 20px;
 }
-.chatinput_box input{
+.chat_inputbox  {
     width: 100%;
+    margin: 0 15px;
+    padding: 20px;
+}
+.chat_inputbox input{
+    border: none;
+    outline: none;
 }
 .chatinput_right{
     flex: 0.2;
-    padding: 0 15px;
+     display: flex;
+    margin: 0 15px;
+    padding: 20px;
+}
+.chatinput_right i.icon{
+    padding:0 20px;
+    cursor: pointer;
 }

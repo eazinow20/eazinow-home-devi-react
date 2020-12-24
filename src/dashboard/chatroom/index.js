@@ -1,11 +1,27 @@
-import { Avatar, Divider, Tooltip } from '@material-ui/core'
+import { Avatar, Divider } from '@material-ui/core'
 import { NotificationImportant, Settings } from '@material-ui/icons'
-import React from 'react'
+import React,{useState} from 'react'
 import { Icon, Input } from 'semantic-ui-react'
 import myimg from './../imgs/old.JPG'
 import './chatroom.css'
+import chatdata from './../../dami-data/chat'
+import DashboardHeader from '../component/header'
 
 const Chatroom = () => {
+
+    const [chatmessages, setchatmessages] = useState(chatdata)
+const [typemessage, settypemessage] = useState("")
+
+const addmessage=(e)=>{
+    e.preventDefault()
+        setchatmessages(
+       [
+            ...chatmessages, {message:typemessage,   user:'sendmessage'}
+        ]);
+        settypemessage("");
+}
+const date = new Date().toLocaleTimeString();
+
     return (
         <>
             <div className="admin_dashboard">
@@ -16,26 +32,7 @@ const Chatroom = () => {
                     <li>Task-Board</li>
                 </div>
                 <div className="admin_right">
-                    <div className="navbar">
-                        <div className="navbar_left"><Icon size='large' color='#fff' name='sidebar'></Icon>
-                            <Input icon placeholder='Search...'>
-                                <input />
-                                <Icon name='search' />
-                            </Input>
-                        </div>
-                        <div className="navbar_right">
-                            <li>
-                                <NotificationImportant />
-                            </li>
-
-                            <li>
-                                <Avatar src={myimg} />
-                            </li>
-                            <li className="user_name">Dev inikhiya</li>
-                            <li>
-                                <Settings />
-                            </li></div>
-                    </div>
+                   <DashboardHeader/>
                     <div className='chatroom'>
                         <div className="chat_left">
                             <div className="chat_lefthead">
@@ -172,14 +169,25 @@ const Chatroom = () => {
                                 
                                 <div className="chatbox_main">
                                     <div className="chatbox_chatbody">
-                                        dghfhf
+                                    {chatmessages.map((chat)=>{
+                                        return <div className={`chat_messagebox ${chat.user}`}>
+                                        <Avatar src={myimg}/>
+                                        <div className="chat_message">
+                                        <span class="chat_username">User Name  <span className="chat_time"> {date}</span></span>
+                                          <div className="message_text">  {chat.message}</div>
+
+                                            </div>
+                                    </div>
+                                    })}
+                                   
+                                      
                                     </div>
                                     <div className="chatbox_member">
                                         <li className='list_head'>Group member</li>
                                         <li>
                                         <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -189,7 +197,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -199,7 +207,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -209,7 +217,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -219,7 +227,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -229,7 +237,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -239,7 +247,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -249,7 +257,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -259,7 +267,7 @@ const Chatroom = () => {
                                             
                                         </li>     <li>
                                             <div className="member_top">
-                                                <Avatar/>
+                                                <Avatar src={myimg}/>
                                                <div className="chatmember_info">
                                                     <div className="grp_membername">
                                                        User name here
@@ -274,10 +282,11 @@ const Chatroom = () => {
                                 </div>
                                <div className="chatbox_input">
                                    <div className="chatbox_inputaddfile">
-                                       add
+                                     <Icon size="large" name="add"></Icon>
                                    </div>
                                   <div className="chat_inputbox">
-                                  <input placeholder='Search...' />
+                                  <form onSubmit={addmessage}>
+                                      <input  onChange={(e)=>settypemessage(e.target.value)} value={typemessage}  type='text' placeholder='Type Message...' />     </form>
                                   </div>
                                    <div className="chatinput_right">
                                      <Icon name="image"></Icon>
