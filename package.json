@@ -1,6 +1,5 @@
 {
   "name": "home",
- 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,10 +21,10 @@
     "react-scripts": "4.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1",
+    "uuid": "^8.3.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

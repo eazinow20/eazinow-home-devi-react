@@ -1,3 +1,23 @@
+.admin_dashboard{
+    display: flex;
+}
+
+.admin_sidebar{
+    flex: 0.15;
+    padding: 30px 0;
+    background-color: #343C49;
+}
+.admin_sidebar li{
+    padding: 10px 20px;
+    color:rgb(170, 170, 170);
+    border-bottom: 1px solid rgb(170, 170, 170);
+    cursor: pointer;
+}
+.admin_right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -52,7 +72,7 @@
     
 }
 .chat_left{
-    flex: 0.18;
+    flex: 0.22;
    
     border: 1px solid #c7c7c7;
     
@@ -85,14 +105,14 @@
     color: #8c9396;
 }
 .chat_right{
-    flex: 0.82;
-    background-color: #eeeeee;
+    flex: 0.78;
+    background-color: white;
     border: 1px solid #c7c7c7;
     margin-left: -1px;
 }
 .group_list{
     margin: 10px ;
-    height: 67vh;
+    height: 69vh;
     overflow-y: scroll;
  
 }
@@ -164,3 +184,45 @@
 .chatbox_headright li i.icon.search{
     color: white;
 }
+
+.chatbox_bodycontainer{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* .chatbox_bodycontainer .chatbox_bodytop{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.chatbox_body{
+    flex: 0.75;
+    display: flex;
+    background-color: #eeeeee;
+} */
+/* 
+.grp_member{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex: 0.25;
+    border-left: 1px solid #c7c7c7;
+    height: 71vh;
+    overflow-y: scroll;
+   
+}
+.grp_member li{
+    padding: 10px;
+    color: #484848;
+    display: flex;
+    flex-direction: column;
+
+}
+.grp_member .list_head{
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: 400;
+} */
