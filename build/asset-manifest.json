@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e44cd75.chunk.css",
+    "main.js": "/static/js/main.9c971f9d.chunk.js",
+    "main.js.map": "/static/js/main.9c971f9d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dbb4f7e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dbb4f7e9.js.map",
+    "static/css/2.340798b5.chunk.css": "/static/css/2.340798b5.chunk.css",
+    "static/js/2.c5b29341.chunk.js": "/static/js/2.c5b29341.chunk.js",
+    "static/js/2.c5b29341.chunk.js.map": "/static/js/2.c5b29341.chunk.js.map",
+    "static/js/3.2343f7cd.chunk.js": "/static/js/3.2343f7cd.chunk.js",
+    "static/js/3.2343f7cd.chunk.js.map": "/static/js/3.2343f7cd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.340798b5.chunk.css.map": "/static/css/2.340798b5.chunk.css.map",
+    "static/css/main.2e44cd75.chunk.css.map": "/static/css/main.2e44cd75.chunk.css.map",
+    "static/js/2.c5b29341.chunk.js.LICENSE.txt": "/static/js/2.c5b29341.chunk.js.LICENSE.txt",
+    "static/media/register.css": "/static/media/bg1.165cd197.jpeg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/eazinow-logo.39ed4927.jpeg": "/static/media/eazinow-logo.39ed4927.jpeg",
+    "static/media/footer.css": "/static/media/ft2.833216ef.jpg",
+    "static/media/hiw.1c38cee7.png": "/static/media/hiw.1c38cee7.png",
+    "static/media/old.5cfdbe8e.JPG": "/static/media/old.5cfdbe8e.JPG",
+    "static/media/App.css": "/static/media/slide2.323391c2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbb4f7e9.js",
+    "static/css/2.340798b5.chunk.css",
+    "static/js/2.c5b29341.chunk.js",
+    "static/css/main.2e44cd75.chunk.css",
+    "static/js/main.9c971f9d.chunk.js"
+  ]
+}
