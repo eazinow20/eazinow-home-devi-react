@@ -8,7 +8,7 @@ const DashboardHeader = () => {
     return (
         <div>
              <div className="navbar">
-                        <div className="navbar_left"><Icon size='large' color='#fff' name='sidebar'></Icon>
+                        <div className="navbar_left"><Icon size='large'  name='sidebar'></Icon>
                             <Input icon placeholder='Search...'>
                                 <input />
                                 <Icon name='search' />

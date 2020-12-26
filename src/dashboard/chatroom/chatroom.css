@@ -2,17 +2,7 @@
     display: flex;
 }
 
-.admin_sidebar{
-    flex: 0.15;
-    padding: 30px 0;
-    background-color: #343C49;
-}
-.admin_sidebar li{
-    padding: 10px 20px;
-    color:rgb(170, 170, 170);
-    border-bottom: 1px solid rgb(170, 170, 170);
-    cursor: pointer;
-}
+
 .admin_right{
     display: flex;
     flex: 1;
@@ -254,7 +244,7 @@
 .chatbox_inputaddfile{
     flex: 0.2;
     margin: 0 15px;
-
+     cursor: pointer;
     padding: 20px;
 }
 .chatinput_box{

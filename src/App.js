@@ -22,6 +22,7 @@ import Profile from './components/agent-profile/Index';
 import Blogsingle1 from './components/blogpage/BlogSingle2';
 import Chatroom from './dashboard/chatroom'
 import Taskboard from './dashboard/taskboard/input'
+import Calender from './dashboard/calender'
 function App() {
 
 
@@ -52,6 +53,8 @@ function App() {
         <Route path="/blog/slide/:title" component={Blogsingle1} ></Route> 
         <Route path="/chatroom" component={Chatroom} ></Route>
         <Route path="/taskboard" component={Taskboard} ></Route>
+        <Route path="/calendar" component={Calender} ></Route>
+
       </Switch>
     </Router>
      

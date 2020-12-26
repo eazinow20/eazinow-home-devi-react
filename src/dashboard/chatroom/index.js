@@ -1,4 +1,4 @@
-import { Avatar, Divider } from '@material-ui/core'
+import { Avatar, Divider, Tooltip } from '@material-ui/core'
 import { NotificationImportant, Settings } from '@material-ui/icons'
 import React,{useState} from 'react'
 import { Icon, Input } from 'semantic-ui-react'
@@ -6,6 +6,7 @@ import myimg from './../imgs/old.JPG'
 import './chatroom.css'
 import chatdata from './../../dami-data/chat'
 import DashboardHeader from '../component/header'
+import Adminsidebar from '../component/sidebar'
 
 const Chatroom = () => {
 
@@ -25,12 +26,7 @@ const date = new Date().toLocaleTimeString();
     return (
         <>
             <div className="admin_dashboard">
-                <div className='admin_sidebar'>
-                    <li>Calendar</li>
-                    <Divider />
-                    <li>Chatroom</li>
-                    <li>Task-Board</li>
-                </div>
+               <Adminsidebar/>
                 <div className="admin_right">
                    <DashboardHeader/>
                     <div className='chatroom'>
@@ -282,7 +278,7 @@ const date = new Date().toLocaleTimeString();
                                 </div>
                                <div className="chatbox_input">
                                    <div className="chatbox_inputaddfile">
-                                     <Icon size="large" name="add"></Icon>
+                                   <Tooltip title="Add file" placement="top"><Icon size="large" name="add"></Icon></Tooltip>  
                                    </div>
                                   <div className="chat_inputbox">
                                   <form onSubmit={addmessage}>

@@ -1,0 +1,28 @@
+.admin_sidebar{
+    width: 240px;
+    height: 100%;
+    padding: 30px 0;
+    background-color: #343C49;
+}
+.admin_sidebar .admin_sbheader{
+    color:rgb(170, 170, 170);
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.admin_sidebar li{
+    display: flex;
+    padding: 10px 20px;
+    color:rgb(170, 170, 170);
+    border-bottom: 1px solid rgb(170, 170, 170);
+    cursor: pointer;
+}
+.admin_sidebar li a{
+    color:rgb(170, 170, 170);
+}
+.admin_sidebar li span{
+    margin: 0 10px 0 0;
+}
