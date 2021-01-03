@@ -4,7 +4,6 @@
 /coverage
 
 
-
 # misc
 .DS_Store
 .env.local
@@ -18,3 +17,4 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+node_modules

@@ -1,0 +1,95 @@
+.ic_topbox{
+    background-color: white;
+    padding: 0 30px;
+    flex: 1;
+    margin: 20px ;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.ic_topbox li{
+    flex: 1;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    font-weight: 700;
+}
+.ic_body{
+    padding: 5px 18px;
+}
+.ic_bodybtn{
+    display: flex;
+    justify-content: space-between;
+}
+.ic_bodybtn ul {
+    display: flex;
+}
+.ic_bodybtn ul li{
+    padding: 10px;
+    background-color: #eee;
+    margin: 5px;
+    height: fit-content;
+    cursor: pointer;
+    color: #313a46;
+}
+.ic_bodybtn .MuiSvgIcon-root{
+    font-size: 20px;
+}
+.ic_bodybtn .ui.dropdown{
+    background-color: inherit;
+    padding: 2px;
+    margin: 0px;
+}
+.ic_table{
+    margin-top: 30px;
+}
+.ic_table thead{
+    background-color: #8c9396;
+}
+.ic_table .ui.table th{
+   background-color: #eee;
+   font-weight: 800;
+   padding: 20px 0px;
+   color: #708195;
+   text-align: center;
+}
+.ic_table .ui.table td{
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+.ic_table .table_colbtn{
+    display: flex;
+    justify-content: center;
+}
+.ic_table .ui.table td .MuiSvgIcon-root{
+    color: red;
+}
+.ic_bodytop{
+    display: flex;
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+ 
+}
+.ic_topbox li center{
+    font-weight: 500;
+    color: #8c9396;
+    font-size: 15px;
+    padding-top: 8px;
+}
+.ic_table .ic_tableadd{
+      background-color:#64C5B1;
+      color: white;
+      justify-content: center;
+      display: flex;
+      width: 100%;
+      padding: 10px;
+      margin-top: -12px;
+      text-align: center;
+}
+.ic_tableadd a{
+    text-decoration: none;
+    color: white;
+}

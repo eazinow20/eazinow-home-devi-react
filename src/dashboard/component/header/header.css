@@ -1,20 +1,25 @@
-.navbar{
+.admin_right .navbar{
     display: flex;
     justify-content: space-between;
     background-color: #64c5b1;
     align-items: center;
-    padding: 5px 10px;
+    padding: 4px 0px;
     align-items: center;
     color: white;
     position:sticky;
    
 }
+.navbar .ui.input{
+    width: 180px;
+    padding:  10px 0;
+}
 .navbar .ui.input>input{
     background-color: #48BBA3;
     border-radius: 20px;
     color: white;
-    padding:12px 20px;
-    margin: 0;
+    padding:10px 20px;
+    
+    
     outline: none;
     height: auto;
     border: none
@@ -26,14 +31,21 @@
 }
 .navbar .navbar_right{
     display: flex;
+    padding: 0 10px 0 0;
     align-items: center;
 }
 .navbar_right .MuiSvgIcon-root{
-    font-size: xx-large;
-    margin: 50x 20px;
+    font-size: x-large;
+    margin: 40x 20px;
+    color: white;
+}
+.navbar_right .MuiAvatar-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
 .navbar .navbar_right li{
-    padding: 5px 10px;
+    padding: 5px 6px;
     cursor: pointer;
     font-size: 14px;
 }
@@ -42,5 +54,5 @@
     align-items: center;
     color:#fff;
     vertical-align: middle;
-    padding: 8px;
+    padding: 8px 4px;
 }

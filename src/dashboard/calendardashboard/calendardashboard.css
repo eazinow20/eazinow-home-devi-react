@@ -1,0 +1,16 @@
+ .cal_dbbox{
+    margin: 20px;
+    padding: 5px;
+    background-color: white !important;
+}
+.cal_dbbody{
+    display: flex;
+ 
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #eee;
+}
+.chartjs-render-monitor{
+   
+  
+}

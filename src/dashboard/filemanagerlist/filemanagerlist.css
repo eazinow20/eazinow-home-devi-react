@@ -1,0 +1,18 @@
+.fm_search{
+    display: flex;
+   margin-top: 20px;
+ 
+    margin-left: auto;
+}
+.fm_table{
+    font-weight: 100;
+    margin-top: 20px;
+}
+.fm_table .ui.table th{
+    text-align: center;
+    font-weight: 0;
+    font-size: 14px;
+}
+.fm_table .ui.table td{
+    font-size: 12.8px;
+}

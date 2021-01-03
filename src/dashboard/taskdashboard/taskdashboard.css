@@ -1,0 +1,102 @@
+.tskdb_container{
+    max-height: 400px;
+    overflow-y:scroll;
+}
+.taskboard_dbheading{
+    padding: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color:white;
+}
+.taskboard_dbheading span{
+    display: flex;
+    margin-right:35px;
+}
+.taskboard_dbheading span li{
+    border: 1px solid #64c5b1;
+    margin-left: 5px;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight:100 !important;
+    font-size: 12.8px;
+    padding: 6px 12px;
+}
+.taskboard_dbheading span li a{
+    text-decoration: none;
+    color: black;
+}
+.tskdb_table{
+    padding: 20px;
+    color: #6c757d;
+    background-color: #f3f3f3;
+}
+ .ui.label{
+    background-color: #64c5b1 !important;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: none;
+    padding: 5PX 12px;
+}
+ .ui.ribbon.label{
+    border-color: #64c5b1;
+    border-radius: none;
+    padding: 8px 15px;
+    
+}
+.ui.table thead th{
+    background-color: white;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.ui.table td{
+    color: #6c757d;
+    text-align: center;
+    float: center;
+}
+.tskdb_table .ui.progress{
+    margin-top: 6px;
+}
+ .task_boxtopleft .tsk_dbtag{
+    border: 1px solid red;
+    margin-left: 4px !important;
+    font-weight: 700;
+    background-color: #F3F3F3 !important;
+    color: red !important;
+}
+
+
+
+.ui.progress .bar{
+   
+    background: #64c5b1;
+}
+.tskdb_table .table_projectid {
+    display: flex;
+    font-weight: 600;
+    color: #6c757d;
+}
+.tskdb_table .table_projectid span{
+  margin: 5px;
+   padding: 5px;
+   display: block;
+ 
+   border-radius: 100%;
+   color: red;
+   background-color: red;
+   content: "";
+}
+.table_btn{
+    background-color: #32c861;
+    color: white;
+    display: flex;
+    justify-content: center;
+ 
+    padding: 5px 10px;
+    margin: 0 20px;
+    border-radius: 3px;
+}
